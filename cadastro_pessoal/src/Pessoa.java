@@ -13,33 +13,36 @@ public class Pessoa {
     
     Pessoa(){};
 
-    static private String nome;
-    static private Calendar dataNascimento = Calendar.getInstance();
-    static private int altura;
+    private String nome;
+    private Calendar dataNascimento = Calendar.getInstance();
+    private int altura;
     
-    public String getNome()
+    String getNome()
     {
         return nome;
     }
-    public Calendar getData()
+    
+    Calendar getData()
     {
         return dataNascimento;
     }
-    public int getAltura()
+    
+    int getAltura()
     {
         return altura;
     }
     
-    public void setNome(String name)
+    void setNome(String name)
     {
-        nome = name;
+        this.nome = name;
     }
-    public void setData(Calendar data)
+    
+    void setData(Calendar data)
     {
-        dataNascimento = data;
+        this.dataNascimento = data;
     }
-    public void setAltura(int alt)
+    void setAltura(int alt)
     {
-        altura = alt;
+        this.altura = alt;
     }
 }

@@ -26,4 +26,3 @@ public class App {
 
     }
 }
-// refazer programa depois de estudar sobre isso. 
